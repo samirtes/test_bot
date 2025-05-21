@@ -6,7 +6,7 @@ import os
 
 app = Flask(__name__)
 
-TOKEN = os.getenv("7727063407:AAECRS3o91I3wEqrbkxmpfH5oibxu-hX3qQ")  # You can set this in Render environment
+TOKEN = ("7727063407:AAECRS3o91I3wEqrbkxmpfH5oibxu-hX3qQ")  # You can set this in Render environment
 TELEGRAM_API_URL = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
 
 @app.route('/')
