@@ -1,4 +1,4 @@
-# https://api.telegram.org/bot<YOUR_TOKEN>/setWebhook?url=https://yourapp.onrender.com/webhook/<YOUR_TOKEN>
+# https://api.telegram.org/bot<7727063407:AAECRS3o91I3wEqrbkxmpfH5oibxu-hX3qQ>/setWebhook?url=https://yourapp.onrender.com/webhook/<7727063407:AAECRS3o91I3wEqrbkxmpfH5oibxu-hX3qQ>
 
 from flask import Flask, request
 import requests
@@ -6,7 +6,7 @@ import os
 
 app = Flask(__name__)
 
-TOKEN = os.getenv("BOT_TOKEN")  # You can set this in Render environment
+TOKEN = os.getenv("7727063407:AAECRS3o91I3wEqrbkxmpfH5oibxu-hX3qQ")  # You can set this in Render environment
 TELEGRAM_API_URL = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
 
 @app.route('/')
