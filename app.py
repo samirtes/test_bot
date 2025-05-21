@@ -1,4 +1,4 @@
-# https://api.telegram.org/bot<7727063407:AAECRS3o91I3wEqrbkxmpfH5oibxu-hX3qQ>/setWebhook?url=https://yourapp.onrender.com/webhook/<7727063407:AAECRS3o91I3wEqrbkxmpfH5oibxu-hX3qQ>
+# https://api.telegram.org/bot<7727063407:AAECRS3o91I3wEqrbkxmpfH5oibxu-hX3qQ>/setWebhook?url=https://test-bot-99fg.onrender.com/webhook/<7727063407:AAECRS3o91I3wEqrbkxmpfH5oibxu-hX3qQ>
 
 from flask import Flask, request
 import requests
